@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Spectral SC', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#map {
+    position: absolute;
+    top: 100px;
+    bottom: 25px;
+    width: 100%;
+}
+
+.marker {
+    background-image: url("https://image.flaticon.com/icons/png/512/4/4442.png");
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
